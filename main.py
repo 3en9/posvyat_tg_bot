@@ -3,10 +3,10 @@ import time
 import telebot
 from table_parser import mailing, get_user_id, get_user_tag, get_registration, get_data, get_transfer, get_living
 
-TOKEN = '6997765514:AAEgSJrGX-Ku-F6AXBjPzaBoRy_zG7D5D3c'
+TOKEN = '7405843354:AAFZNP6mrEk5wp_bGrOBzcIhi6iQxXaRIF4'
 
 bot = telebot.TeleBot(TOKEN)
-admin_ids = [550509099, 1628109575, 766749758]
+admin_ids = [550509099, 1628109575, 766749758, 2086166118, 1072196201, 847536529]
 faq_id = -4570130952
 
 hi_message = 'Привет 💥\nЭто бот Посвящения в студенты 2024\nЗдесь ты будешь получать важную информацию о нашем мероприятии 🤠\nДо встречи в Клондайке🌵'
