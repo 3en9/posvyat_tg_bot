@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "posvyat-miem",
+  "private_key_id": "f8c748c282b3cd16359ac18056637b0897401271",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDU6OM1gEaYmryD\nUVQ7mAZ32xHNhrH9bilxOHP0czsHdZ8yEUh0vOLlpTNaqf6Tw38WKMN6zhgKeQtt\naPkOWVtGuJCHp7i6E9gMFmOQvE3JLyA48ig474M4Ri5J5ANKDukY/2rD1lAYHdM0\nl1oaqdGOKB134mjn2gMKxRYGzAxkh33sq+if90DVHPwBTxo5jRwvV5fr/4o1FfsN\nudTaSnx3WBpnAfHYsrf07ukLHHbZIdD9mGKMLNvWR+yDWozOP9l1CmgoUjjRguLi\nJfJR5eM+nWJQdpwdTfXaw99mjNx/irrShyk3azlH3X+CYTlGVQBNNgPr+stDH/5s\nEBYD7q4NAgMBAAECggEAMn9qJG5gUCGjRKItkFTmc9cJye2AmdNfEPOKzRfnkEVd\nlMp0nPuP9VfRbleTggiERAU3GBF5skIza6fSKo0XERcFcKdfMQMz4uoMg2+mI2mC\nAv+sepSUUuySXgQuo4oVz1AFSp2yMYYhaf/b5ycQBN+O3bhdmWAkCJHmP4Z2CgGK\nB0eiH5i/Or5bOl8xrcl8Xw7EzrolWSmtovXe+cV7rP2dGkUeZ+2uFJCCitqFnwpI\nH9RaaTy2kPlHfK9826jRjDoSXr3wQhD7cMsnWfT2L/7BpSyEOK3lReaj/sYYLl4z\nzCHyaK+fnaGQ5gCAXj4HMyHo+XjYB705GNms0weNIQKBgQD0dMjkAiuBJi39cMFq\nUa3IY91N8gteZLOOc4vyna5OLk/7C+nl46bm31s1gZHRZSnE09Ci31VyjhkrIHmZ\nZDtKv430PDF8NMWqcfH58OvohlAnCwSiKMjIMEsH8YBnKKmrCX8l8FaaqYWpvdxv\nIPdv2hlfoHbiDwqlkfLHnYG5NwKBgQDe9r1QH+wuCVt2UWcl4E9qUOTQq9ceMFFy\nlis3fPcAhopDEDhyguEHdk7wnb+an5TZiNVqEvdMmPN1Q+7kNeGOfnwUpmyk5XKO\ncfBgpQXVvzQKD9noelk0t9i6YccsJE/U++0G7GZNgK3Ddfg73wjjTfBN8JMJvMIy\nJdP0/iKk2wKBgBfYoJQlZgsGJ2xWqHdvmk02+KqW1ucRWbamrNsw6IT13ZV2tw1W\n5LwWw7X3err7bFSn+O06bgJrvCbJ1zLQZTxIbVeK26TrHPEghmNETi7zkzQLzhrn\ncZadp2QR+d2WSN7HYWDZDgmuSbyiKbOpepmto9YBODebEgXOs+knAzWHAoGBAJDD\nVQFL6LWvP6IfkkAmVompwha2K7KfHpKua5rYWSsPL4ABbRT0YxTMPM6/LWNAT425\n6Q65B7XE7PVrSRUE4tD40Kk7sPiTPQC9e5vUKWixfyE1T39AyOCQqXfB+mZvoSGg\n/DFtlbKmZKuu0aBV3FhxByAjneRJmTCkHO1Jf8bXAoGAX4SIdSjsA7cS9VkpBZL/\nN0j1PWFWB2UMwGNAMLizvMqRKeA0oDXo6s7L6olduHkl5gSFYYhAmOPMOTujIWJj\n/PfHMisw5xJmo55lyRtd+Qc6p5iT2sRtMzCyR+nAKM0w36BIm8ToKOhtKLnweIgb\nGg84IoyU6KjGzs4Xmri/5tY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "posvyat-miem@posvyat-miem.iam.gserviceaccount.com",
+  "client_id": "107117312393362550980",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/posvyat-miem%40posvyat-miem.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
