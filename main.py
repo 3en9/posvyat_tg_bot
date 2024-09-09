@@ -9,7 +9,7 @@ bot = telebot.TeleBot(TOKEN)
 admin_ids = [550509099, 1628109575, 766749758, 2086166118, 1072196201, 847536529]
 faq_id = -4570130952
 
-hi_message = 'Привет 💥\nЭто бот Посвящения в студенты 2024\nЗдесь ты будешь получать важную информацию о нашем мероприятии 🤠\nДо встречи в Клондайке🌵'
+hi_message = 'Привет 💥\nЭто бот Посвящения в студенты 2024\nЗдесь ты будешь получать важную информацию о нашем мероприятии 🤠\nДо встречи в Клондайке🌵\nЧтоб задать вопрос напиши /help'
 reg_message = 'Поздравляю! \nТы успешно прошел(а) регистрацию на самое незабываемое событие студенчества 🏜'
 transfer_message = 'По коням 🐴\nТы успешно прошел(а) регистрацию на трансфер.'
 living_message = 'Выспаться сможешь 🛌 \nТы зарегистрировался(ась). На Посвяте хорошо отдохнешь после захватывающей программы.'
@@ -32,7 +32,7 @@ def get_text_messages(message):
                 bot.send_message(message.from_user.id, hi_message)
                 add_user(message)
             elif message.text == '/help':
-                bot.send_message(message.from_user.id, "Задай свой вопрос или напиши назад")
+                bot.send_message(message.from_user.id, "Задай свой вопрос (для отмены напиши назад)")
                 bot.register_next_step_handler(message, get_help)
             else:
                 a = message.text.strip().split()
@@ -111,7 +111,7 @@ def get_help(message):
         else:
             bot.send_message(message.from_user.id, 'Произошла ошибка, напиши еще раз')
     else:
-        bot.send_message(message.from_user.id, 'диалог прерван')
+        bot.send_message(message.from_user.id, 'Диалог прерван')
         return
 
 
@@ -132,7 +132,7 @@ def send_periodic_messages():
         users_tag = get_transfer(data)
         for user_tag in users_tag:
             try:
-                bot.send_message(get_user_id(user_tag), reg_message)
+                bot.send_message(get_user_id(user_tag), transfer_message)
             except:
                 pass
             else:
@@ -143,7 +143,7 @@ def send_periodic_messages():
         users_tag = get_living(data)
         for user_tag in users_tag:
             try:
-                bot.send_message(get_user_id(user_tag), reg_message)
+                bot.send_message(get_user_id(user_tag), living_message)
             except:
                 pass
             else:
