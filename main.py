@@ -3,7 +3,7 @@ import time
 import telebot
 from table_parser import mailing, get_user_id, get_user_tag, get_registration, get_data, get_transfer, get_living
 
-TOKEN = '7405843354:AAFZNP6mrEk5wp_bGrOBzcIhi6iQxXaRIF4'
+TOKEN = ''
 
 bot = telebot.TeleBot(TOKEN)
 admin_ids = [550509099, 1628109575, 766749758, 2086166118, 1072196201, 847536529]
